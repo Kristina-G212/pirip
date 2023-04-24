@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 480 384"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="email.svg"
+   width="480"
+   height="384"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:lockguides="false"
+     inkscape:zoom="0.39746094"
+     inkscape:cx="-225.17936"
+     inkscape:cy="119.5086"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     fill="var(--ci-primary-color, currentColor)"
+     d="M 0,0 V 384 H 480 V 0 Z m 220.8,229.6 a 32.167,32.167 0 0 0 38.4,0 L 282.667,212 448,336 v 16 H 32 V 336 L 197.333,212 Z M 240,204 32,48 V 32 H 448 V 48 Z M 32,88 170.667,192 32,296 Z M 448,296 309.333,192 448,88 Z"
+     class="ci-primary"
+     id="path2" />
+</svg>

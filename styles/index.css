@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+input, button {
+    all: unset;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul, li, p, a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:active {
+    color: black;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    background-image: url("../styles/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 50px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+}
+
+.h1_index {
+    font-size: 50px;
+    color: #8a3324;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B2A5A5;
+    flex: 1 0 auto;
+}
+
+.parts {
+    display: flex;
+    gap: 25px;
+}
+
+.part {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition: .3s;
+
+    width: 260px;
+    height: 260px;
+    border-radius: 65px;
+    box-shadow: 0 20px 7px 0 rgba(0, 0, 0, 0.7);
+    filter: grayscale(20%);
+}
+
+.part:hover {
+    filter: grayscale(0);
+}
+
+.pin {
+    background-image: url("../styles/img/b-6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fabric {
+    background-image: url("../styles/img/hand-embroidery-on-knit-12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h2_index {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+
+.footer {
+    flex: 0 0 auto;
+    padding: 40px 50px;
+    background-color: #8E6D6D;
+}
+
+.icon_link_in_footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.icon_a {
+    width: 40px;
+    height: 40px;
+
+    filter: invert(80%);
+}
+
+.white {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
